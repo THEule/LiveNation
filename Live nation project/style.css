@@ -1,7 +1,29 @@
+body{
+    display: grid;
+    margin: 0;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "header header"
+                         "nav nav"
+                         "banner banner"
+                         "main aside"
+                         "footer footer";
+}
+header{
+    grid-area: header;
+}
 nav{
-    
     background-color: brown;
     padding: 1rem;
+    grid-area: nav;
+}
+main{
+    grid-area: main;
+}
+aside{
+    grid-area: aside;
+}
+footer{
+    grid-area: footer;
 }
 nav a{
     text-decoration: none;
@@ -12,12 +34,56 @@ nav a{
 }
 #banner{
     position: relative;
+    margin: 0;
+    padding: 0;
+    grid-area: banner;
+}
+#banner img{
+    width: 100vw;
 }
 #livenation_banner_text{
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 41%;
-    left: 40%;
+    top: 20%;
+    left: 35%;
+    
 }
+#banner_live{
+    font-size: 96px;
+    color: white;
+    font-weight: bold;
+    text-shadow:2px 2px 1px black;
+}
+#banner_nation{
+    font-size: 96px;
+    color: red;
+    font-weight: bold;
+    text-shadow:2px 2px 1px black;
+}
+#livenation_banner_paragraph{
+    position: absolute;
+    top: 60%;
+    left:31%;
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#sponsors img{
+    height: 100px;
+    width: auto;
+}
+.red_banners{
+    background-color: brown;
+    color: white;
+    margin: 0;
+    padding: 0.5rem;
+}
+.red_banners p{
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 3px;
+}
+
