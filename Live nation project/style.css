@@ -18,9 +18,12 @@ nav{
 }
 main{
     grid-area: main;
+    padding-right: 5px;
 }
 aside{
     grid-area: aside;
+    padding-left: 5px;
+    border-left: 1px dotted red;
 }
 footer{
     grid-area: footer;
@@ -86,4 +89,15 @@ nav a{
     padding: 0;
     letter-spacing: 3px;
 }
-
+.socialmedia_icons{
+    font-size: 2rem;
+    padding-right: 0.5rem;
+    text-decoration: none;
+}
+.socialmedia_icons a{
+    color: rgb(78, 78, 78);
+}
+#follow_us_media{
+    display: flex;
+    padding: 0.5rem;
+}
