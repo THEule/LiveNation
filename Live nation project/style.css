@@ -1,7 +1,7 @@
 body{
     display: grid;
     margin: 0;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-areas: "header header"
                          "nav nav"
                          "banner banner"
@@ -19,6 +19,8 @@ nav{
 main{
     grid-area: main;
     padding-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
 }
 aside{
     grid-area: aside;
@@ -27,6 +29,19 @@ aside{
 }
 footer{
     grid-area: footer;
+    background-color: rgb(230, 226, 226);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    margin: 0.5rem;
+}
+footer a{
+    text-decoration: underline;
+    color: blue;
 }
 nav a{
     text-decoration: none;
@@ -73,10 +88,23 @@ nav a{
     font-weight: bold;
     letter-spacing: 1px;
 }
-#sponsors img{
+#main_news_box{
+    margin-bottom: 1rem;
+}
+.main_content{
+    background-color: rgb(230, 226, 226);
+    border: 1px solid lightgray;
+    margin-top: 3px;
+}
+.sponsors_img{
     height: 100px;
     width: auto;
+    
 }
+/*#sponsors_img_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}*/
 .red_banners{
     background-color: brown;
     color: white;
