@@ -6,6 +6,9 @@
     <title>LiveNation</title>
     <link rel="icon" href="./images/ln_favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -13,12 +16,12 @@
         <img src="./images/live_nation_logo.png" alt="live nation logo">
     </header>
     <nav id="main_nav">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Services</a>
-        <a href="">Artist</a>
-        <a href="">Events</a>
-        <a href="">Contact</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Artist</a>
+        <a href="#">Events</a>
+        <a href="#">Contact</a>
     </nav>
 
     <div id="banner">
@@ -29,13 +32,16 @@
     <main>
         <div id="main_news_box" class="red_banners"><p>News</p></div>
         <div class="main_content">
-            <p>the peggies holds free livestream concert "SOUNDBASE Vol.3"</p>
-            <img src="./images/news_thepeggies.jpg" alt="the peggies photo">
+            <p class="brown_text">the peggies holds free livestream concert "SOUNDBASE Vol.3"</p>
+            <div class="main_content_picture">
+                <img src="./images/news_thepeggies.jpg" alt="the peggies photo">
+                <p><b>the peggies</b></p>
+            </div>
             <p>the peggies just <a href="">announced a free livestream concert</a> SOUNDBASE Vol.3 will be held on YouTube on Octover 20! This commemorates the releas date of their <a href="">upcoming second major album The Garden.</a></p>
             <p>The event will start at 21:00 (JST) and you can already head out to the scheduled video on Youtube to set a reminder. Be sure not to miss it as the concert will not be archived.</p>
         </div>
         <div class="main_content">
-            <h3>Parkway Drive announce 2022 UK and European tour</h3>
+            <h3 class="brown_text">Parkway Drive announce 2022 UK and European tour</h3>
             <h2>Septemabr 2022</h2>
             <ul>
                 <li>9 - Leipzig, Quareterback Immobilien Arena (DE)</li>
@@ -66,14 +72,17 @@
             <div>
                 
                 <p>Sign up for our newsletter to rceive the latest news from our artists.</p>
-                <div id="newsletter_submit_box"></div>
+                <div id="newsletter_submit_box">
+                    <input type="text"/>
+                    <button type="button">Join</button>
+                </div>
             </div>
         <div id="sponsors" class="red_banners">
             <p>Sponsors</p>
         </div>
             <div id="sponsors_img_box">
                 
-                <img class="sponsors_img" src="./images/sponsors_alibaba.png" alt="alibaba">
+                <img class="sponsors_img" src="./images/sponsors_alibaba.png" alt="alibaba" style="width: 150px; height: auto;">
                 <img class="sponsors_img" src="./images/sponsors_raiffeisen.png" alt="raiffeisen">
                 <img class="sponsors_img" src="./images/sponsors_spotify.png" alt="spotify">
                 <img class="sponsors_img" src="./images/sponsors_tmobile.png" alt="tmobile">

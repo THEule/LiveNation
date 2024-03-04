@@ -55,6 +55,7 @@ nav a{
     margin: 0;
     padding: 0;
     grid-area: banner;
+    overflow-x: hidden;
 }
 #banner img{
     width: 100vw;
@@ -64,9 +65,9 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 20%;
+    top: 10%;
     left: 35%;
-    
+    font-family: "Roboto", sans-serif;
 }
 #banner_live{
     font-size: 96px;
@@ -83,7 +84,7 @@ nav a{
 #livenation_banner_paragraph{
     position: absolute;
     top: 60%;
-    left:31%;
+    left:28%;
     font-size: 38px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -95,16 +96,31 @@ nav a{
     background-color: rgb(230, 226, 226);
     border: 1px solid lightgray;
     margin-top: 3px;
+    padding-left: 2px;
+}
+.main_content a{
+    color: blue;
+}
+.main_content_picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.brown_text{
+    font-weight: bold;
+    color: brown;
 }
 .sponsors_img{
-    height: 100px;
+    height: 45px;
     width: auto;
-    
 }
-/*#sponsors_img_box{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}*/
+#sponsors_img_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
 .red_banners{
     background-color: brown;
     color: white;
@@ -128,4 +144,18 @@ nav a{
 #follow_us_media{
     display: flex;
     padding: 0.5rem;
+}
+#newsletter_submit_box{
+    display: flex;
+    padding-bottom: 10px;
+}
+#newsletter_submit_box input{
+    flex-grow: 1;
+    background-color: gray;
+}
+#newsletter_submit_box button{
+    width: 100px;
+    background-color: brown;
+    color: white;
+    margin-left: 5px;
 }
