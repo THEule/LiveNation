@@ -18,6 +18,7 @@ nav{
 }
 main{
     grid-area: main;
+    padding-top: 5px;
     padding-right: 5px;
     margin-left: 5px;
     margin-bottom: 5px;
@@ -25,6 +26,7 @@ main{
 aside{
     grid-area: aside;
     padding-left: 5px;
+    padding-top: 5px;
     border-left: 1px dotted red;
 }
 footer{
@@ -153,9 +155,55 @@ nav a{
     flex-grow: 1;
     background-color: gray;
 }
-#newsletter_submit_box button{
+.brown_button{
     width: 100px;
+    height: 1.8rem;
     background-color: brown;
     color: white;
     margin-left: 5px;
+}
+#contact_form input{
+    background-color: gray;
+    width: 50%;
+}
+#contact_form textarea{
+    background-color: gray;
+    width: 50%;
+}
+#contact_map{
+    width: 100%;
+}
+#management_box{
+    display: flex;
+    
+}
+#management_box img{
+    width: 200px;
+    height: 200px;
+    padding-right: 2rem;
+}
+#management_box div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#management_box div p{
+    margin: 0;
+    padding: 0.3rem 0;
+}
+.table_row{
+    display: flex;
+    background-color: black;
+}
+.table_row div{
+    display: flex;
+    background-color: rgb(71, 70, 70);
+    border-color: rgb(71, 70, 70);
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.table_row_box_1 p{
+    display: inline-block;
+    width: 100px;
 }
