@@ -86,7 +86,7 @@ nav a{
 #livenation_banner_paragraph{
     position: absolute;
     top: 60%;
-    left:28%;
+    left:30%;
     font-size: 38px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -113,7 +113,7 @@ nav a{
     color: brown;
 }
 .sponsors_img{
-    height: 45px;
+    height: 55px;
     width: auto;
 }
 #sponsors_img_box{
@@ -122,6 +122,7 @@ nav a{
     justify-content: center;
     align-items: center;
     gap: 15px;
+    padding-top: 5px;
 }
 .red_banners{
     background-color: brown;
@@ -141,7 +142,7 @@ nav a{
     text-decoration: none;
 }
 .socialmedia_icons a{
-    color: rgb(78, 78, 78);
+    color: rgb(46, 46, 46);
 }
 #follow_us_media{
     display: flex;
@@ -153,7 +154,7 @@ nav a{
 }
 #newsletter_submit_box input{
     flex-grow: 1;
-    background-color: gray;
+    background-color: rgb(46, 46, 46);;
 }
 .brown_button{
     width: 100px;
@@ -161,13 +162,14 @@ nav a{
     background-color: brown;
     color: white;
     margin-left: 5px;
+    cursor: pointer;
 }
 #contact_form input{
-    background-color: gray;
+    background-color: rgb(46, 46, 46);;
     width: 50%;
 }
 #contact_form textarea{
-    background-color: gray;
+    background-color: rgb(46, 46, 46);;
     width: 50%;
 }
 #contact_map{
@@ -175,21 +177,23 @@ nav a{
 }
 #management_box{
     display: flex;
-    
 }
 #management_box img{
     width: 200px;
     height: 200px;
-    padding-right: 2rem;
 }
 #management_box div{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-right: 2rem;
 }
 #management_box div p{
     margin: 0;
     padding: 0.3rem 0;
+}
+.table_container{
+    border: 2px solid brown;
 }
 .table_row{
     display: flex;
@@ -220,6 +224,9 @@ nav a{
 .table_row_box_3 button{
     background-color: rgb(0, 0, 0);
     color: white;
-    border: 1px solid red;
+    border: 1px solid brown;
     width: 4.5rem;
+}
+.button_events{
+    cursor: pointer;
 }
